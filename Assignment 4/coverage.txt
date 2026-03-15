@@ -1,0 +1,20 @@
+============================= test session starts ==============================
+platform darwin -- Python 3.11.0, pytest-9.0.2, pluggy-1.5.0
+rootdir: /Users/mohit/github/AppliedMachineLearning/temp/ass4
+plugins: cov-7.0.0, anyio-4.12.0
+collected 3 items
+
+test.py ...                                                              [100%]
+
+================================ tests coverage ================================
+_______________ coverage: platform darwin, python 3.11.0-final-0 _______________
+
+Name            Stmts   Miss  Cover
+-----------------------------------
+app.py             39     39     0%
+load_model.py      19     19     0%
+score.py            5      0   100%
+test.py            73      2    97%
+-----------------------------------
+TOTAL             136     60    56%
+============================== 3 passed in 14.37s ==============================
