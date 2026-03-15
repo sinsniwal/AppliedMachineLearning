@@ -16,3 +16,6 @@ Instructions:
 1. Build the image: docker build -t spam_classifier_app .
 2. Run the container: docker run -d -p 5001:5001 --name spam_app spam_classifier_app
 3. Run tests locally: pytest test.py
+
+The below image shows the successful execution of the pre-commit pytest hook running automatically when committing code to the main branch:
+![Pre-commit Hook Passing Tests](image.png)
