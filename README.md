@@ -20,3 +20,16 @@ Containerized the API into a Docker image, integrated containerized API tests, a
 To build container: `docker build -t spam_classifier_app .`
 To run container: `docker run -d -p 5001:5001 --name spam_app spam_classifier_app`
 To test locally: `pytest test.py`
+**Assignment 5: Transfer Learning & Sentiment Analysis**
+- **Image Classification** (Duck vs Chicken) using ResNet18.
+  - Notebook: `Assignment 5/Task_1_Image_Classification_(Duck_vs_Chicken).ipynb`
+  - Assets: `Assignment 5/assets/` (visual outputs)
+- **Sentiment Analysis** using DistilBERT.
+  - Notebook: `Assignment 5/Task_2_Sentiment_Analysis.ipynb`
+  - Assets: `Assignment 5/assets/` (visual outputs)
+
+To run the notebooks:
+```bash
+jupyter notebook "Assignment 5/Task_1_Image_Classification_(Duck_vs_Chicken).ipynb"
+jupyter notebook "Assignment 5/Task_2_Sentiment_Analysis.ipynb"
+```
