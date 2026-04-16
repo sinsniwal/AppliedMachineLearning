@@ -20,6 +20,7 @@ Containerized the API into a Docker image, integrated containerized API tests, a
 To build container: `docker build -t spam_classifier_app .`
 To run container: `docker run -d -p 5001:5001 --name spam_app spam_classifier_app`
 To test locally: `pytest test.py`
+
 **Assignment 5: Transfer Learning & Sentiment Analysis**
 - **Image Classification** (Duck vs Chicken) using ResNet18.
   - Notebook: `Assignment 5/Task_1_Image_Classification_(Duck_vs_Chicken).ipynb`
